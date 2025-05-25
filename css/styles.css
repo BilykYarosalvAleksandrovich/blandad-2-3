@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: "Poppins" sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+.container {
+}
+
+/* #region header */
+.header {
+}
+
+.header-container {
+}
+
+.header-navigation {
+}
+
+.header-logo {
+}
+
+.header-list {
+}
+
+.header-item {
+}
+
+.header-link {
+}
+
+.current {
+}
+
+.header-button-list {
+}
+
+.header-button-item {
+}
+
+.header-item-btn {
+}
+
+.sign-up {
+}
+
+/* #endregion header */
