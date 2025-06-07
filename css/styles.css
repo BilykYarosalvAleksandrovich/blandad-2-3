@@ -134,7 +134,7 @@ img {
 .work {
 }
 
-.work-container {
+.first-container {
   display: flex;
 }
 
@@ -252,11 +252,19 @@ img {
 
 /* #region management section */
 .management {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.left-side-management {
+  width: 486px;
+  height: 418px;
+  margin: 41px 84px 41px 0;
 }
 .management-subtitle {
   font-weight: 700;
   font-size: 32px;
   color: #22343d;
+  margin-bottom: 25px;
 }
 .management-list {
 }
@@ -267,21 +275,47 @@ img {
   font-size: 16px;
   line-height: 1.625;
   color: #22343d;
+  margin-bottom: 25px;
 }
 .management-title {
+  margin-bottom: 12px;
   font-weight: 600;
   font-size: 16px;
   color: #22343d;
 }
+.first {
+  margin-bottom: 8px;
+}
+.second {
+  margin-bottom: 30px;
+}
 .management-images {
+}
+
+.right-side {
+  display: flex;
+  margin-left: auto;
 }
 
 /* #endregion management section  */
 
 /* #region customer section */
 .customer {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.left-images {
+  display: flex;
+  margin-left: auto;
+  margin-right: 84px;
+  padding: 0 41px;
 }
 .customer-images {
+  display: block;
+}
+.customer-rigt {
+  width: 451px;
+  padding: 41px 35px 41px 0;
 }
 .customer-list {
 }
@@ -291,23 +325,32 @@ img {
   font-weight: 600;
   font-size: 16px;
   color: #22343d;
+  margin-bottom: 8px;
 }
 .customer-title {
   font-weight: 700;
   font-size: 32px;
   color: #22343d;
+  margin-bottom: 25px;
 }
 .customer-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.625;
   color: #22343d;
+  margin-bottom: 25px;
 }
 
 /* #endregion customer section */
 
 /* #region collaborative section */
 .collaborative {
+  margin-bottom: 75px;
+  margin-top: 50px;
+}
+.collaborative-left {
+  width: 486px;
+  margin: 41px 84px 41px 0;
 }
 .collaborative-list {
 }
@@ -317,17 +360,20 @@ img {
   font-weight: 600;
   font-size: 16px;
   color: #22343d;
+  margin-bottom: 12px;
 }
 .collaborative-title {
   font-weight: 700;
   font-size: 32px;
   color: #22343d;
+  margin-bottom: 25px;
 }
 .collaborative-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.625;
   color: #22343d;
+  margin-bottom: 25px;
 }
 .collaborative-images {
 }
