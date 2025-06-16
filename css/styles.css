@@ -483,8 +483,6 @@ img {
   margin-bottom: 40px;
 }
 
-.strategies-list {
-}
 .strategies-box-list {
   display: flex;
   align-items: center;
@@ -527,15 +525,30 @@ img {
   font-weight: 700;
   font-size: 34px;
   color: #22343d;
+  text-align: center;
+  margin-bottom: 10px;
 }
 .price-table-text {
   font-weight: 500;
   font-size: 16px;
   color: #22343d;
+  text-align: center;
+  margin-bottom: 40px;
 }
+
 .price-tible-list {
+  display: flex;
+  gap: 72px;
+  margin: 0 auto;
 }
 .price-tible-item {
+  width: 322px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+  background: #fff;
+  /* width: calc(100% (2 * 72px) / 3); */
 }
 .price-tible-subtitle {
   font-weight: 700;
@@ -553,6 +566,7 @@ img {
   height: 44px;
   background-color: #02897a;
   border: none;
+  max-width: 139px;
 }
 .price-table-list {
 }
