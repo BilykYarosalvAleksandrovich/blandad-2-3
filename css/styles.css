@@ -660,7 +660,7 @@ img {
 /* #region client-say section */
 .client-say {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 .client-say-title {
@@ -740,6 +740,7 @@ img {
 /* #region promo section */
 
 .promo {
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
   background-color: #02897a;
   border-radius: 32px;
   width: 968px;
@@ -749,8 +750,12 @@ img {
   display: flex;
   justify-content: center;
 }
+
 .left-promo {
+  /* margin: 0 auto; */
   display: flex;
+  /* justify-content: center;
+  flex-shrink: 0; */
 }
 
 .promo-left {
@@ -777,6 +782,8 @@ img {
 }
 
 .promo-images {
+  border-radius: 5px;
+  margin-left: 10px;
 }
 
 /* #endregion promo section */
@@ -784,6 +791,7 @@ img {
 /* #region footer */
 
 .footer {
+  padding-top: 100px;
 }
 .footer-navigation {
 }
