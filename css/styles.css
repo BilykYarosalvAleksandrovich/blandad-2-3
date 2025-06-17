@@ -542,6 +542,9 @@ img {
 .price-table-subtitle-text {
   position: relative;
 }
+.price-tible-item.current {
+  background-color: #02897a;
+}
 
 .price-table-subtitle-text::after {
   content: "$";
@@ -610,6 +613,13 @@ img {
   box-shadow: none;
   padding: unset;
 }
+.price-tible-subtitle.six,
+.price-table-text.six,
+.price-table-span.six,
+.price-table-link.six {
+  color: #fff;
+}
+
 .fifth:not(:last-child) {
   margin-bottom: 16px;
 }
@@ -638,6 +648,11 @@ img {
   height: 44px;
   background-color: #02897a;
   border: none;
+}
+
+.seven {
+  background-color: #fff;
+  color: #02897a;
 }
 
 /* #endregion price-table section*/
