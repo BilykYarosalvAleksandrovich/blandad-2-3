@@ -792,16 +792,17 @@ img {
 
 .footer {
   padding-top: 100px;
+  padding-bottom: 40px;
 }
 .footer-navigation {
 }
 .footer-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.19;
+  color: #22343d;
 }
 .footer-images {
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 0.93;
-  color: #173a56;
 }
 .footer-list {
 }
@@ -810,8 +811,19 @@ img {
 .footer-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 2.1875;
+  line-height: 1.88;
   color: #22343d;
+}
+.eight {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.ten {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93;
+  color: #173a56;
 }
 .footer-button {
   min-width: 131px;
