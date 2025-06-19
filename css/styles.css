@@ -169,6 +169,10 @@ img {
 }
 .work-button-item {
 }
+.work-button-svg {
+  border-radius: 2px;
+  fill: #02897a;
+}
 .work-button {
   font-weight: 700;
   font-size: 16px;
@@ -187,6 +191,12 @@ img {
   height: 24px;
   color: #02897a;
   background-color: #fff;
+  fill: #02897a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 9px;
 }
 .right {
   display: flex;
