@@ -100,6 +100,7 @@ img {
 
 .current {
   font-weight: 600;
+  color: #22343d;
 }
 
 .header-button-list {
@@ -247,14 +248,16 @@ img {
   border-radius: 19px;
   margin-bottom: 26px;
 }
+.customer-item-svg-container.color-one,
 .color-one {
-  background: #4d8dff;
+  background-color: #4d8dff;
 }
 .color-two {
-  background: #740a76;
+  background-color: #740a76;
 }
+.customer-item-svg-container.color-three,
 .color-three {
-  background: #f03e3d;
+  background-color: #f03e3d;
 }
 .product-item-svg {
   fill: #fff;
@@ -355,6 +358,7 @@ img {
 .customer-list {
 }
 .customer-item {
+  padding: unset;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -396,6 +400,7 @@ img {
   font-size: 16px;
   line-height: 1.625;
   color: #22343d;
+  width: 437px;
 }
 
 /* #endregion customer section */
@@ -438,7 +443,7 @@ img {
 /* #endregion collaborative section */
 /* #region process section */
 .process {
-  margin: 75px 97px 50px 97px;
+  padding: 75px 97px 50px 97px;
 }
 
 .proces-container {
@@ -467,6 +472,7 @@ img {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 50px;
+  width: 916px;
 }
 
 .process-list {
@@ -477,15 +483,18 @@ img {
 .proces-expert {
   display: flex;
   align-items: center;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .process-item {
   display: flex;
   width: 408px;
-  gap: 24px;
+  gap: 20px;
   align-items: center;
   margin-bottom: 25px;
+  /* width: calc((100% - 100px) / 2); */
+}
+.for-left {
 }
 .process-images {
 }
@@ -569,7 +578,7 @@ img {
   line-height: 1.67;
   color: #22343d;
 }
-.current {
+.currents {
   color: #02897a;
 }
 /* #endregion strategies section */
